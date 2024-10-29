@@ -39,7 +39,7 @@ public Brokeri() {
 		System.out.println("Vuvedi Opisanie");
 		Arr.get(i).Description = kb.next();
 		System.out.println("Vuvedi Adres");
-		Arr.set(i, adress = kb.next());
+		//Arr.set(i, adress = kb.next());
 		
 	}
 	System.out.println("Vuvedi Kubatura");
