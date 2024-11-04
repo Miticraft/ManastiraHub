@@ -65,37 +65,19 @@ public static boolean Solve(int a[][], int rows, int cols) {
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int Zadacha[][] = new int[N][N];
-		Zadacha[0][0] = 5;
-		Zadacha[0][1] = 3;
-		Zadacha[0][4] = 7;
-		Zadacha[1][0] = 6;
-		Zadacha[1][3] = 1;
-		Zadacha[1][4] = 9;
-		Zadacha[1][5] = 5;
-		Zadacha[2][1] = 9;
-		Zadacha[2][2] = 8;
-		Zadacha[2][7] = 6;
-		Zadacha[3][0] = 8;
-		Zadacha[3][4] = 6;
-		Zadacha[3][8] = 3;
-		Zadacha[4][0] = 4;
-		Zadacha[4][3] = 8;
-		Zadacha[4][5] = 3;
-		Zadacha[4][8] = 1;
-		Zadacha[5][0] = 7;
-		Zadacha[5][4] = 2;
-		Zadacha[5][8] = 6;
-		Zadacha[6][1] = 6;
-		Zadacha[6][6] = 2;
-		Zadacha[6][7] = 8;
-		Zadacha[7][3] = 4;
-		Zadacha[7][4] = 1;
-		Zadacha[7][5] = 9;
-		Zadacha[7][8] = 5;
-		Zadacha[8][4] = 8;
-		Zadacha[8][7] = 7;
-		Zadacha[8][8] = 9;
+		int Zadacha[][] = 
+			{{1,3,2,0,0,4,0,0,5},
+			{0,0,8,0,0,0,7,3,0},
+			{0,0,0,0,0,0,0,0,0},
+			{0,0,7,3,0,0,5,0,0},
+			{0,8,0,0,0,0,0,0,0},
+			{0,0,0,0,0,6,0,4,2},
+			{0,0,0,0,0,0,0,7,0},
+			{0,4,0,6,2,0,0,0,1},
+			{0,0,0,5,0,3,9,0,0}
+				};
+		
+		
 		Print(Zadacha);
 		System.out.println();
 		System.out.println();
