@@ -2,13 +2,13 @@ package com.miticraft.DiplomnaRabota;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-class Peshaka {
+ class Nz {
 	Mark ob2;
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
 		ob2= new Mark();
 	}
 

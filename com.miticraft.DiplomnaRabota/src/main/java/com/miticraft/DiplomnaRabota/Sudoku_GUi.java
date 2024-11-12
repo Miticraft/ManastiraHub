@@ -167,7 +167,7 @@ public class Sudoku_GUi extends JFrame {
 					public void keyPressed(KeyEvent e) {
 						// TODO Auto-generated method stub
 						if(e.getKeyCode() == KeyEvent.VK_KP_DOWN) {
-							Zadacha[count+9].setEnabled(true);
+							
 						}
 					}
 				});
