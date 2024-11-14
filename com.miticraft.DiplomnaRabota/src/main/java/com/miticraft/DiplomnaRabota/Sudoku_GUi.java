@@ -121,6 +121,17 @@ public class Sudoku_GUi extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
+		JButton btnNewButton_1 = new JButton("Reset");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				for (int i = 0; i < Zadacha.length; i++) {
+					Zadacha[i].setText("");
+				}
+			}
+		});
+		btnNewButton_1.setBounds(359, 457, 85, 21);
+		contentPane.add(btnNewButton_1);
 
 		int count = 0;
 		int a = 0;
