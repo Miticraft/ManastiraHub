@@ -7,39 +7,34 @@ import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 
 public class TestIfElse2 {
-	 Mark studentMark;
-
-	@BeforeEach
-	void setup() throws Exception{
-		studentMark = new Mark();
-	}
-
+	public Mark studentMark = new Mark();
+	
 	@Test
-	void test6() {
+	public void test6() {
 		int result = studentMark.markMet(99);
 		assertEquals(6, result);
 	}
 
 	@Test
-	void test5() {
+	public void test5() {
 		int result = studentMark.markMet(85);
 		assertEquals(5, result);
 	}
 
 	@Test
-	void test4() {
+	public void test4() {
 		int result = studentMark.markMet(70);
 		assertEquals(4, result);
 	}
 
 	@Test
-	void test3() {
+	public void test3() {
 		int result = studentMark.markMet(55);
 		assertEquals(3, result);
 	}
 
 	@Test
-	void test2() {
+	public void test2() {
 		int result = studentMark.markMet(30);
 		assertEquals(2, result);
 	}

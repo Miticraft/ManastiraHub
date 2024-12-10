@@ -3,7 +3,7 @@ package com.miticraft.DiplomnaRabota;
 public class Mark {
 	public int markMet(int n) {
 		int mark;
-		if(n<0&&n>100) 
+		if(n<0||n>100) 
 			mark = 0;
 		else
 		if (n <= 100 && n >= 92)
@@ -22,4 +22,13 @@ public class Mark {
 		System.out.println("оценка=" + mark);
 		return mark;
 	}
+	public int markMake(double n, double max) {
+		double result =(n/max)*100;
+		System.out.println(result);
+		return markMet((int)result);
+	}
+	public static void main(String args[]) {
+		Mark ob = new Mark();
+		System.out.println(ob.markMake(30, 40));
+		}
 }
