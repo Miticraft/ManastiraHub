@@ -114,6 +114,7 @@ public class Sudoku_GUi extends JFrame {
 	}
 
 	public Sudoku_GUi() {
+		setResizable(false);
 		JTextField Zadacha[] = new JTextField[81];
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 498, 549);
