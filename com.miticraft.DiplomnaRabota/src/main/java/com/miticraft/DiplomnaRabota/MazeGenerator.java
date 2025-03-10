@@ -97,6 +97,7 @@ public class MazeGenerator extends JPanel {
             }
         }
         solving = false;
+        JOptionPane.showMessageDialog(null, "Лабиринт Решен");
     }
 
     private Cell getNextPath(Cell cell, boolean[][] visited) {
@@ -200,6 +201,7 @@ public class MazeGenerator extends JPanel {
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);
             frame.setBounds(ALLBITS, ABORT, 414, 490);
+            frame.setResizable(false);
         });
     }
 }
